@@ -9,10 +9,17 @@
     <link rel="Sortcut Icon" href="sglogo.png" type="image/png"/>
     <link rel="stylesheet" href="Style.css" />
     <link rel="stylesheet" href="Mediaqueries.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Sujal Gohel</div>
+      <img
+            src="Sujalblack.png"
+            alt="My codepen profile "
+            class="logo"
+          /> 
+      
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -23,7 +30,12 @@
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">Sujal Gohel</div>
+      <img
+            src="Sujalblack.png"
+            alt="My codepen profile "
+            class="logo"
+          /> 
+      
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -55,18 +67,12 @@
           </button>
         </div>
         <div id="socials-container">
-          <img
-            src="codepen.png"
-            alt="My codepen profile "
-            class="icon"
-            onclick="location.href='https://codepen.io/sujal1309'"
-          />
-          <img
-            src="Github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/sujalg1309'"
-          />
+          <a href="https://www.codepen.io/sujal1309">
+          <i class="fa-brands fa-codepen" style="color: #ffffff"></i>
+          </a>
+          <a href="https://www.github.com/sujalg1309">
+          <i class="fa-brands fa-github" style="color: #ffffff;"></i> 
+        </a>
         </div>
       </div>
     </section>
@@ -91,11 +97,9 @@
               />
               <h3>Experience</h3>
               <p>1+ Years <br />Frontend Development</p>
-              <img
-                src="education.png"
-                alt="Education icon"
-                class="icon"
-              />
+              <span class="material-symbols-outlined">
+                school
+              </span>
               <h3>Education</h3>
               <p> 9 Std </p>
             </div>
@@ -343,39 +347,23 @@
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
-        <a href="Sujalgohel1309@gmail.com ">
-          <img
-            src="email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
+        <a href="sujalgohel1309@gmail.com">
+          <i class="fa-solid fa-envelope"></i>
         </a>
         </div>
         <div class="contact-info-container">
         <a href="https://www.codepen.io/sujal1309">
-          <img
-            src="codepen.png"
-            alt="codepen icon"
-            class="icon contact-icon"
-          />
+          <i class="fa-brands fa-codepen" style="color: #ffffff"></i>
         </a>
         </div>
         <div class="contact-info-container">
             <a href="https://www.instagram.com/_.sujal._512">
-          <img
-            src="Instagram.png"
-            alt="instagram icon"
-            class="icon contact-icon"
-          />
+          <i class="fa-brands fa-instagram"></i>
           </a>
         </div>
         <div class="contact-info-container">
           <a href="https://www.x.com/sujal8936">
-            <img
-                src="x.png"
-                alt="x icon"
-                class="icon contact-icon"
-            />
+            <i class="fa-brands fa-twitter" style="color: #ffffff"></i>
           </a>
         </div>
       </div>
