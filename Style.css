@@ -16,6 +16,10 @@
 }
 
 body {
+  overscroll-behavior: none;
+  touch-action: auto;
+  /* user-scalable: no; */
+  user-select: none;
   font-family: "Poppins", sans-serif;
 }
 
