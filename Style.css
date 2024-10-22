@@ -278,8 +278,9 @@ section {
 }
 
 .btn-color-2:hover {
-  border: vertical-align: top;(--card-color) 0.1rem solid;
+  border: 0.1rem solid var(--card-color);
   color: black;
+  vertical-align: top;
 }
 
 .btn-container {
