@@ -260,7 +260,6 @@ section {
 .btn-color-1,
 .btn-color-2:hover {
   background: var(--headline);
-  color: var(--paragraph);
 }
 
 .btn-color-1:hover {
@@ -280,6 +279,7 @@ section {
 
 .btn-color-2:hover {
   border: vertical-align: top;(--card-color) 0.1rem solid;
+  color: black;
 }
 
 .btn-container {
